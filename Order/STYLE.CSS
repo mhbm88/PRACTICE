@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'B Koodak';
+    src: url('font/BKoodkBd.ttf') format('truetype');
+}
+
+@keyframes load {
+    from{padding-left: 2000%;}
+    to{padding-left: 0%;}
+}
+
+body {
+
+    font-family: B Koodak;
+    background-color: rgb(74, 45, 121);
+    color: #ffffff;
+    padding-top: 10%;
+    animation-name: load;
+    animation-duration: 2s;
+
+}
+
+.pedar {
+    font-family: B Koodak;
+    background-color: rgba(172, 146, 0, 0.856);
+    border-radius: 25px;
+    width: fit-content;
+    padding: 5%;
+    
+}
+
+@keyframes a {
+    from{width: 90%;}
+    to{width: 60%;}
+}
+
+@keyframes b {
+    from{width: 60%;}
+    to{width: 90%;}
+}
+
+.btn {
+
+    background-color: rgb(74, 45, 121);
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: x-large;
+    border: none;
+    padding: 1%;
+    width: 20%;
+    animation-name: a;
+    animation-duration: 2s;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+
+    width: 50%;
+    animation-name: b;
+    animation-duration: 2s;
+
+}
+
+h2 {
+    font-family: B Koodak;
+}
+
+form {
+    font-family: B Koodak;
+}
